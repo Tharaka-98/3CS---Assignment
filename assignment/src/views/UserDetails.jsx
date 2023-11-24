@@ -23,7 +23,7 @@ function UserDetails() {
         <Link to="/" className="block mt-4 text-white p-2">Back</Link>
         </div >
       {user && (
-        <div className="grid grid-cols-2 items-center justify-center px-12 mt-12">
+        <div className="grid grid-cols-2 items-center justify-center px-32 lg:px-96 mt-12">
           
             <img src={user.avatar} alt={user.first_name} className="w-40 h-40 rounded-full mb-4 "/>
           
